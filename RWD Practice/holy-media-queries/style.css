@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  font-size: 5em;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: #f3ca40;
+  height: 15vh;
+  width: 100vw;
+}
+
+#middle {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#main {
+  width: 100%;
+  display: flex;
+}
+
+#nav {
+  width: 15vw;
+  background-color: #4b4e6d;
+}
+
+#articles {
+  width: 60vw;
+  background-color: #6a8d92;
+}
+
+#ads {
+  width: 15vw;
+  background-color: #f2a541;
+}
+
+#footer {
+  height: 15vh;
+  width: 100vw;
+  background-color: #f08a4b;
+}
